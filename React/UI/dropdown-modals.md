@@ -1,12 +1,12 @@
 # Dropdown Modals
 
-## 1. Creating a Dropdown Hook
+## 1. Creating a Dropdown Modal Hook
 First, to store the state of our dropdown, that is, whether or not the dropdown is currently toggled open or not, we must use a hook. Remember that in React, we can't just pass a variable around for this, we must use a hook.
 
 Luckily, our base code has provided a useful hook called `useToggle`. We will utilize this hook for our dropdowns.
 Create the hook in the file where the information is relevant to all of the components. In this case, it will likely be where the component is created.
 
-`components/Trip/Itinerary.js`
+**`components/Trip/Itinerary.js`**
 ```js
 import { useToggle } from '../../../hooks/useToggle';
 
@@ -24,7 +24,7 @@ Notice how in the `useToggle()` hook call, we specify `false`, this is the defau
 Now, we can get and pass along the current state of the modal with the hook variable `loadModal` and change that using `toggleLoadModal`.
 Let's create a new modal component as `components/Trip/LoadModal.js` to store the load modal.
 
-`components/Trip/LoadModal.js`
+**`components/Trip/LoadModal.js`**
 ```js
 export function LoadModal(props) {
     return;
@@ -48,7 +48,7 @@ Now, we have passed the props on to the LoadModal, which can now access them via
 Let's take a look at the ReactStrap documentation for a Modal: https://reactstrap.github.io/components/modals/
 We can use the documentation's example to make a base/skeleton modal in our component:
 
-`components/Trip/LoadModal.js`
+**`components/Trip/LoadModal.js`**
 ```js
 export function LoadModal(props) {
     return (
@@ -70,7 +70,7 @@ Now, we need a button to be able to open the modal itself. You will notice at th
 
 Let's pass that now to `actions.js`, where we will add our button to toggle this modal:
 
-`components/Trip/LoadModal.js`
+**`components/Trip/LoadModal.js`**
 ```js
 
 export default function Itinerary(props) {
@@ -95,7 +95,7 @@ function Header(props) {
 
 Let's create a button in the Itinerary actions dropdown. To do so, we need to edit `actions.js`:
 
-`components/Trip/actions.js`
+**`components/Trip/actions.js`**
 ```js
 import { FiUpload } from 'react-icons/fi';
 
