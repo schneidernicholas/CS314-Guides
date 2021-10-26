@@ -39,3 +39,12 @@ You can change the color of the icon itself using this prop, for example:
 ```js
 <BsFillCloudRainFill color={"blue"} />
 ```
+
+## 4. Using inside Buttons, other Components
+These icon components can very easily be used in other components. For example, the icon component can be placed inside of a button to make the button have that icon:
+```js
+<Button>
+    <BsFillCloudRainFill /> Stormy Weather
+</Button>
+```
+This will create a button with the rain cloud icon and the text next to it, "Stormy Weather." You can choose to add text next to the icon like this, or you can just have the icon alone.
