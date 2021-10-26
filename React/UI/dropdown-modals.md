@@ -1,5 +1,7 @@
 # Dropdown Modals
 
+In this example, we will be adding a new button to the Itinerary actions dropdown that will toggle open a new modal when pressed. Once in the modal, the user is able to use the "X" or "Close" button to then close that modal.
+
 ## 1. Creating a Dropdown Modal Hook
 First, to store the state of our dropdown, that is, whether or not the dropdown is currently toggled open or not, we must use a hook. Remember that in React, we can't just pass a variable around for this, we must use a hook.
 
@@ -32,7 +34,7 @@ export function LoadModal(props) {
 ```
 
 Now, let's construct this component where we made the hook and pass the toggle hook we made to it, don't forget to add the import:
-`components/Trip/Itinerary.js`
+**`components/Trip/Itinerary.js`**
 ```js
 import { LoadModal } from './LoadModal';
 
