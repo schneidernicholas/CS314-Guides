@@ -29,7 +29,7 @@ Let's create a new modal component as `components/Trip/LoadModal.js` to store th
 **`components/Trip/LoadModal.js`**
 ```js
 export function LoadModal(props) {
-    return;
+    // We will be adding the modal content here soon! See step 3.
 }
 ```
 
@@ -57,12 +57,12 @@ export function LoadModal(props) {
         <Modal isOpen={modal} toggle={props.toggled}>
             <ModalHeader toggle={props.toggled}>Modal title</ModalHeader>
             <ModalBody>
-              This is an example modal.
+                This is an example modal.
             </ModalBody>
             <ModalFooter>
-              <Button color="secondary" onClick={props.toggle}>Close</Button>
+                <Button color="secondary" onClick={props.toggle}>Close</Button>
             </ModalFooter>
-          </Modal>
+        </Modal>
     );
 }
 ```
