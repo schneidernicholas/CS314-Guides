@@ -95,7 +95,7 @@ function Header(props) {
 }
 ```
 
-Let's create a button in the Itinerary actions dropdown. To do so, we need to edit `actions.js`:
+Let's create a button in the Itinerary actions dropdown. To do so, we need to edit `actions.js` to add a `<DropdownItem>`. Keep in mind that any button could be used, but in this case we are adding to a dropdown, so we need to use the correct React type. The main part of this is the `onClick` field, which specifies what it does when clicked.
 
 **`components/Trip/actions.js`**
 ```js
