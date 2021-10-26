@@ -1,2 +1,2 @@
 # CS314-Guides
-Guides for CS314.
+A collection of guides for CS314, for React (client) and Spark (server).
