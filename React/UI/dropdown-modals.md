@@ -113,3 +113,5 @@ export function ItineraryActionsDropdown(props) {
     );
 }
 ```
+
+Note that we made use of an icon for our button, `<FiUpload />`. This must be imported just like any other component. See icon information and documentation at https://react-icons.github.io/react-icons. See the guide on [using-icons.md](using-icons.md) for more information.
