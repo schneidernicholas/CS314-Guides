@@ -12,7 +12,7 @@ In the desired file, add an import to the top following this format:
 import { <PackName><IconName> } from 'react-icons/<PackName>';
 ```
 
-For example, if the icon we have is `BsFillCloudRainFill`, `<PackName>` woudl be `Bs` and `<IconName>` would be `FillCloudrainFill`. Therefore, the import would be:
+For example, if the icon we have is `BsFillCloudRainFill`, `<PackName>` would be `Bs` and `<IconName>` would be `FillCloudrainFill`. Therefore, the import would be:
 ```js
 import { BsFillCloudRainFill } from 'react-icons/bs';
 ```
