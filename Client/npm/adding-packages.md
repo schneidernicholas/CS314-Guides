@@ -40,7 +40,7 @@ After this completes, the project should now have the new package.
 After running this command, if you are still experiencing errors from the import, follow these steps:
 1. `cd client`
 2. `rm -r node_modules`
-3. `rm package-log.json`
+3. `rm package-lock.json`
 4. Be sure you have pulled the latest changes from GitHub.
 5. `npm install`
 
