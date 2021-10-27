@@ -52,4 +52,7 @@ So, we would end up with a new or edited component in `src/components` that has 
 
 Before making a pull request, we would make test cases to get branch coverage for any components or new functionalities we added in any files. We would make these in the `test` directory corresponding to the file structure and file names, except instead of `.js` the file is named `.test.js`.
 
-What determines if you create a new component or add to an existing one depends on what you are adding. If it is a simple button you are adding to a menu, then it likely does not need it's own component. However, if it's a search bar with a results area, it may need multiple components added. The same goes for whether or not you add to an existing util or create a new one. If the functionality you are adding pertains to places for example, add to the existing `utils/places.js` file. On the other hand, if it's something not currently covered by any util file category, you may need to create a new one, such as one for saving or uploading files.
+### When to create a new file vs. add to an existing one
+What determines if you create a new component or add to an existing one depends on what you are adding. If it is a simple button you are adding to a menu, then it likely does not need it's own component. However, if it's a search bar with a results area, it may need multiple components added.
+
+The same goes for whether or not you add to an existing util or create a new one. If the functionality you are adding pertains to places for example, add to the existing `utils/places.js` file. On the other hand, if it's something not currently covered by any util file category, you may need to create a new one, such as one for saving or uploading files.
