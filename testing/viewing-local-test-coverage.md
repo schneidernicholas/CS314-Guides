@@ -5,7 +5,7 @@ Depending on your development environment, how you go about accessing this will 
 - Run the project to get an updated client and server test coverage report.
 - You may need to completely stop and rerun your local build to generate a new server/client test coverage report.
 
-## Bare Metal: Using macOS (Intel, Apple Silicon), GNU/Linux, Linux Subsystem for Windows (10/11)
+## Bare Metal: Using macOS (Intel, Apple Silicon), GNU/Linux
 The easiest way to access this by far is if you have your development environment on your local native OS. In this case, while the project is running, you can access the file URLs in your browser.
 
 ### Client Coverage Report
