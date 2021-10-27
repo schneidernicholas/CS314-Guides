@@ -36,7 +36,7 @@ When you go to merge your new feature that includes this new package into the Gi
 
 After this completes, the project should now have the new package.
 
-## Further Problems, Compilation Problems
+## Further Problems, Compilation Problems, etc.
 After running this command, if you are still experiencing errors from the import, follow these steps:
 1. `cd client`
 2. `rm -r node_modules`
