@@ -1,6 +1,9 @@
 # Viewing Local Test Coverage
 While developing and writing tests locally, it can be helpful to view live information about each file and its test coverage.
 
+Depending on your development environment, how you go about accessing this will differ. However, the following notes apply to everyone:
+- Run the project to get an updated client and server test coverage report.
+- You may need to completely stop and rerun your local build to generate a new server/client test coverage report.
 
 ## Using Linux, macOS (bare metal)
 The easiest way to access this by far is if you have your development environment on your local native OS. In this case, while the project is running, you can access the file URLs in your browser.
