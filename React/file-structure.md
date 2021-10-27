@@ -48,7 +48,8 @@ Now that we understand how we want to break down our code, let's cater it to the
 `Functionality` goes in `src/utils`  
 `Test` goes in `test`  
 
-So, we would end up with a new or edited component in `src/components` that has a `<Button>`, which `onClick` calls a function from a file in `src/utils` you either added to or created for this purpose to have something processed, then handles the result of that.
+So, we would end up with a new or edited component in `src/components` that has a `<Button>`, which `onClick` calls a function from a file in `src/utils` you either added to or created for this purpose to have something processed, then handles the result of that. Here is a visual illustration of that process:
+![Whiteboard Example 1](https://user-images.githubusercontent.com/14037442/139020490-bf11b6fd-2c2b-4094-81cc-7cb6c4cc0f5f.JPG)
 
 Before making a pull request, we would make test cases to get branch coverage for any components or new functionalities we added in any files. We would make these in the `test` directory corresponding to the file structure and file names, except instead of `.js` the file is named `.test.js`.
 
