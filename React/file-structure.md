@@ -20,7 +20,7 @@ This houses all of the UI (user-interface) components. These include things like
 All React hooks can be found here. Hooks are a way of passing data along to many components and allowing it to be updated by any of those components, propagating to any other components with that hook variable. We can define the behavior of this hook in its hook file, which is located in this directory. Create any new hooks here if needed.
 
 ## `src/static`
-This is for static assets, which includes things like images and stylesheets (`scss`).
+This is for static assets, which includes things like images and stylesheets (`scss`). It's unlikely that you will need to edit any of the stylesheets unless you know SCSS and are an advanced web programmer. You may need to add an image, which you can do by adding that image file into the corresponding directory in the `static/images` directory.
 
 ## `src/utils`
 This is for utility functions/classes and is where a lot of the data processing happens. For example, `restfulAPI.js` handles making REST API calls and any portion of the client can import and use those functionalities. Offload functionalities like these to a util file, calling it from the component, and receiving back what is neccessary for the UI (e.g. a success or error message).
