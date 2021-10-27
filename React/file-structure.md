@@ -2,12 +2,19 @@
 The React project features a file structure that categorizes various needs and utilities in certain ways. This guide will go over what each of these are and where certain things should go.
 
 `client/`
+
     `schemas`
+    
     `src`
+    
         `components`
+        
         `hooks`
+        
         `static`
+        
         `utils`
+        
     `test`
   
 ## `schemas`
