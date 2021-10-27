@@ -1,21 +1,14 @@
 # React File Structure
 The React project features a file structure that categorizes various needs and utilities in certain ways. This guide will go over what each of these are and where certain things should go.
 
-`client/`
-
-    `schemas`
-    
-    `src`
-    
-        `components`
-        
-        `hooks`
-        
-        `static`
-        
-        `utils`
-        
-    `test`
+`client/`  
+- `schemas`  
+- `src`  
+    - `components`  
+    - `hooks`  
+    - `static`  
+    - `utils`  
+- `test`  
   
 ## `schemas`
 This folder contains JSON schemas used for validation. These schemas almost always can be found in the [product repo](https://github.com/CSU-CS-314-Fall-2021/product). For example, if you are looking to validate a find response, you would add https://github.com/CSU-CS-314-Fall-2021/product/blob/main/protocol/find/FindResponse.json to the schemas folder.
@@ -33,4 +26,5 @@ This is for static assets, which includes things like images and stylesheets (`s
 This is for utility functions/classes and is where a lot of the data processing happens. For example, `restfulAPI.js` handles making REST API calls and any portion of the client can import and use those functionalities. Offload functionalities like these to a util file, calling it from the component, and receiving back what is neccessary for the UI (e.g. a success or error message).
 
 ## `test`
-This is where all of the test cases can be found.
+This is where all of the test cases can be found. Follow the directory structure to create a Component.test.js file for each component we need to test.
+Make note of `test/sharedMocks.js`, where you can use and add new mock cases, such as for a sample JSON TripFile. These can then be imported to any number of test cases to be used.
