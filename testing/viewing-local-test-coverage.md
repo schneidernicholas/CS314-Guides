@@ -4,6 +4,7 @@ While developing and writing tests locally, it can be helpful to view live infor
 Depending on your development environment, how you go about accessing this will differ. However, the following notes apply to everyone:
 - Run the project to get an updated client and server test coverage report.
 - You may need to completely stop and rerun your local build to generate a new server/client test coverage report.
+- The build must be running in order for the server test coverage files to be there.
 
 Choose the set of guide instructions below for the development environment you are using.
 
