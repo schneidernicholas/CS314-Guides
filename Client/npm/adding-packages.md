@@ -1,7 +1,7 @@
 # Adding NPM Packages
 NPM packages are a way of distributing libraries in the source code. However, each client will need to download these libraries, what's distributed is really just a list of packages to download.
 
-There may be cases where you need to add a new package. For example, it could save you time to use [react-dropzone](https://react-dropzone.js.org/) to make a nice drag and drop uploader hook rather than having to make your own. Luckily, it's pretty simple to add a new package..
+There may be cases where you need to add a new package. For example, it could save you time to use [react-dropzone](https://react-dropzone.js.org/) to make a nice drag and drop uploader hook rather than having to make your own. Luckily, it's pretty simple to add a new package.
 
 ## Obtaining the Package Repo Name
 
@@ -16,15 +16,15 @@ To add a new package, first you need to get the repo name of the package you wan
 
 ## Installing the Package
 
-Once you have found the package repo name, you can now use an NPM command to install the package. To do so, you must first navigate to your client directory by doing:
+Once you have found the package repo name, you can now use an NPM command to install the package. To do so, you must first navigate to your client directory by doing:  
 `cd client`
 
-Now, run the following command:
+Now, run the command:  
 `npm install <package-repo-name> --save`
 
 The `--save` flag ensures that this is saved to our project's list of packages, so that other team members can install this package.
 
-The package should now begin to install. If the package cannot be found, be sure that you have the correct package repo name.
+The package should now begin to install. If the package cannot be found, be sure that you have the correct package repo name. In our example, this command would end up looking like: `npm install react-dropzone --save`
 
 ## Merging & Adding to GitHub
 
