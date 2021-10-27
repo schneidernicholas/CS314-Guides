@@ -28,3 +28,26 @@ This is for utility functions/classes and is where a lot of the data processing 
 ## `test`
 This is where all of the test cases can be found. Follow the directory structure to create a Component.test.js file for each component we need to test.
 Make note of `test/sharedMocks.js`, where you can use and add new mock cases, such as for a sample JSON TripFile. These can then be imported to any number of test cases to be used.
+
+## Examples
+
+Some examples of things we're looking to add and how that might correspond to the project file structure.
+
+> **Example #1:** Looking to add a new button that queries an API for some result to mark on the map.  
+
+In this case, we can break this down into some categories to help us see what files to create:
+- UI
+    - Button
+- Functionality
+    - API request, process result, send back to UI to handle
+- Test
+    - A test case for each of these things.  
+
+Now that we understand how we want to break down our code, let's cater it to the project's file structure. By category, this is how our list would correspond to the correct file directory:  
+`UI` goes in `src/components`  
+`Functionality` goes in `src/utils`  
+`Test` goes in `test`  
+
+So, we would end up with a new or edited component in `src/components` that has a `<Button>`, which `onClick` calls a function from a file in `src/utils` you either added to or created for this purpose to have something processed, then handles the result of that.
+
+What determines if you create a new component or add to an existing one depends on what you are adding. If it is a simple button you are adding to a menu, then it likely does not need it's own component. However, if it's a search bar with a results area, it may need multiple components added. The same goes for whether or not you add to an existing util or create a new one. If the functionality you are adding pertains to places for example, add to the existing `utils/places.js` file. On the other hand, if it's something not currently covered by any util file category, you may need to create a new one, such as one for saving or uploading files.
