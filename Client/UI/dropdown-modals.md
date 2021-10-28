@@ -72,7 +72,7 @@ Now, we need a button to be able to open the modal itself. You will notice at th
 
 Let's pass that now to `actions.js`, where we will add our button to toggle this modal:
 
-**`components/Trip/LoadModal.js`**
+**`components/Trip/Itinerary.js`**
 ```js
 
 export default function Itinerary(props) {
