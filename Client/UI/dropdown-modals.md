@@ -54,7 +54,7 @@ We can use the documentation's example to make a base/skeleton modal in our comp
 ```js
 export function LoadModal(props) {
     return (
-        <Modal isOpen={modal} toggle={props.toggled}>
+        <Modal isOpen={propsmodal} toggle={props.toggled}>
             <ModalHeader toggle={props.toggled}>Modal title</ModalHeader>
             <ModalBody>
                 This is an example modal.
