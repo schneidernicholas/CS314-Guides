@@ -13,12 +13,12 @@ To install the development environment, you will need to do some setup. First is
 ### Installation Options
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
-| Native (bare metal) | Fastest | Easiest |
+| [Native (bare metal)](installing-macOS-Linux.md) | Fastest | Easiest |
 | Docker | Slowest | Medium |
 
 ## Linux (Debian-based)
 ### Installation Options
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
-| Native (bare metal) | Fastest | Easiest |
+| [Native (bare metal)](installing-macOS-Linux.md) | Fastest | Easiest |
 | Docker | Slowest | Difficult |
