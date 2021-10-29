@@ -1,4 +1,6 @@
 # Installing on macOS or Linux (debian-based)
+These will compile and run on both macOS Apple Silicon and Intel chips.
+
 ## 1. Install Java JDK
 ```sh
 sudo apt update
