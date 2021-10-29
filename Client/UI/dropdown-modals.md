@@ -47,7 +47,7 @@ export function Itinerary(props) {
 Now, we have passed the props on to the LoadModal, which can now access them via `props.toggled` to see if it is toggled and `props.toggle()` to toggle itself (such as from an exit button).
 
 ## 3. Creating the ReactStrap Modal
-Let's take a look at the ReactStrap documentation for a Modal: https://reactstrap.github.io/components/modals/
+Let's take a look at the ReactStrap documentation for a Modal: https://reactstrap.github.io/?path=/docs/components-modal--modal
 We can use the documentation's example to make a base/skeleton modal in our component:
 
 **`components/Trip/LoadModal.js`**
