@@ -35,4 +35,7 @@ Now that your machine is authorized to use your GitHub user to commit and use th
 $ git clone git@github.com:CSU-CS-314-Fall-2021/t01.git
 ```
 
+You can find the SSH URL to use on the GitHub repo page:  
+<img width="300" src="https://user-images.githubusercontent.com/14037442/139539968-b9155647-9aa3-4975-ac87-1df946d7e40c.png" />
+
 Be sure to follow the SSH format, rather than an `HTTP://` or `HTTPS://` git clone URL, which will result in your git not properly using your configured SSH authorization. This means that it will prompt you each time for a username and password, which our SSH configuration avoids.
