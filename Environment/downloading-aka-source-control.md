@@ -9,8 +9,8 @@ A branch is a variant of the main code, which may contain a fix, change, or new 
 ## Git: Installing
 If you do not already have git (i.e. `git` is invalid in terminal), you can install it by running:
 ```sh
-sudo apt update
-sudo apt install git
+$ sudo apt update
+$ sudo apt install git
 ```
 ## Git: Configuring User (SSH) Authorization
 To authorize our local machine to be able to make changes to our repo with our GitHub credentials, we will utilize a public-private SSH key pair.
@@ -18,7 +18,7 @@ To authorize our local machine to be able to make changes to our repo with our G
 ### Generate an SSH Key
 To generate an SSH key, run the following command:
 ```sh
-ssh-keygen -t rsa -b 4096
+$ ssh-keygen -t rsa -b 4096
 ```
 Press enter when prompted.
 
@@ -32,7 +32,7 @@ Now that you've generated a new SSH key pair, you need to add that SSH key to Gi
 ## Git: Clone the Repository
 Now that your machine is authorized to use your GitHub user to commit and use the repo, we need to actually download the repo onto the filesytem. This can be done by using the clone command.
 ```sh
-git clone git@github.com:CSU-CS-314-Fall-2021/t01.git
+$ git clone git@github.com:CSU-CS-314-Fall-2021/t01.git
 ```
 
 Be sure to follow the SSH format, rather than an `HTTP://` or `HTTPS://` git clone URL, which will result in your git not properly using your configured SSH authorization. This means that it will prompt you each time for a username and password, which our SSH configuration avoids.
