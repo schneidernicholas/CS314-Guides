@@ -33,4 +33,7 @@ Now, I recommend creating a directory to store your development efforts:
 ```sh
 $ mkdir development
 ```
-In that directory, you can then [clone the repo](downloading-aka-source-control.md) and [install/build it](installing.md).
+In that directory, you can then [clone the repo](../downloading-aka-source-control.md)
+
+## Installing Dependencies
+Now, follow the [macOS/Linux installation guide](macos-linux.md). All of the commands should work when executed in WSL.
