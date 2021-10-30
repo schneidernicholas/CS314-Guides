@@ -25,7 +25,4 @@ $ npm install
 $ sudo apt install maven
 ```
 ## 6. Install server dependencies & build
-```sh
-$ cd ../
-$ ./bin/run.sh
-```
+Now, [build the application](building.md) which will install server dependencies and launch it.
