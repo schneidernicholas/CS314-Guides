@@ -20,7 +20,7 @@ It's recommended that you install [Ubuntu](https://www.microsoft.com/store/produ
 
 ## Using WSL
 ### Windows Terminal
-If you do not already have Windows Terminal, which is packaged with newer versions of Windows 10 and 11, be sure to install it from the [Microsoft Store](https://www.microsoft.com/store/productId/9N0DX20HK701).
+Windows Terminal is an [open-source](https://github.com/microsoft/terminal) commandline made for Windows by Microsoft. New versions of Windows 10 and 11 come with Windows Terminal packaged in, but if you do not already have it, be sure to install it from the [Microsoft Store](https://www.microsoft.com/store/productId/9N0DX20HK701).
 
 Windows Terminal is how you can use WSL. Open a new Windows Terminal and click the dropdown arrow next to the plus tab button. Select the `Ubuntu` option (or whatever distro you selected) and a new prompt tab should open. Here is where any commands in further guides/instructions would be entered.
 
