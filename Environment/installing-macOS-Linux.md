@@ -1,5 +1,5 @@
 # Installing on macOS or Linux (debian-based)
-These will compile and run on Apple Silicon, Intel, and AMD chips.
+These will compile and run on [Apple silicon](https://en.wikipedia.org/wiki/Apple_silicon), Intel, and AMD chips.
 
 ## 1. Install Java JDK
 ```sh
