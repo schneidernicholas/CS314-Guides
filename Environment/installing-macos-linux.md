@@ -17,7 +17,7 @@ $ nvm install 12.21
 ```
 ## 4. Install client dependencies
 ```sh
-cd client
+$ cd client
 $ npm install
 ```
 ## 5. Install Maven (Server Package Manager)
