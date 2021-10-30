@@ -7,7 +7,7 @@ To install the development environment, you will need to do some setup. First is
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
 | Docker | Medium | Easiest |
-| Subsystem for Linux (WSL) | Fastest | Medium |
+| [Subsystem for Linux (WSL)](installing-windows-subsystem-linux.md) | Fastest | Medium |
 
 ## macOS (Apple Silicon, Intel)
 ### Installation Options
