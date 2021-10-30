@@ -20,5 +20,5 @@ To install the development environment, you will need to do some setup. First is
 ### Installation Options
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
-| [Native (bare metal)](installing/macOS-Linux.md) | Fastest | Easiest |
+| [Native (bare metal)](installing/macos-linux.md) | Fastest | Easiest |
 | [Docker](https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsFall2021/chapter/1/section/5) | Slowest | Difficult |
