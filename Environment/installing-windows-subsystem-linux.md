@@ -3,7 +3,7 @@
 If you are running Windows 10 or Windows 11, you have the option of using Windows Subsystem for Linux.
 
 ## Requirements
-- Windows install must be 64-bit
+- Windows install must be 64-bit (`x64`)
 
 ## Installing WSL
 WSL does not come enabled by default in Windows. You can enable it by:
