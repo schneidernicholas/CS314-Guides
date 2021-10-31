@@ -53,9 +53,10 @@ We can use the documentation's example to make a base/skeleton modal in our comp
 **`components/Trip/LoadModal.js`**
 ```js
 export function LoadModal(props) {
+   
     return (
-        <Modal isOpen={propsmodal} toggle={props.toggled}>
-            <ModalHeader toggle={props.toggled}>Modal title</ModalHeader>
+        <Modal isOpen={props.toggled} toggle={props.toggle}>
+            <ModalHeader toggle={props.toggle}>Modal title</ModalHeader>
             <ModalBody>
                 This is an example modal.
             </ModalBody>
