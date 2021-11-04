@@ -1,5 +1,6 @@
 # Installing on macOS or Linux (debian-based)
 These will compile and run on [Apple silicon](https://en.wikipedia.org/wiki/Apple_silicon), [Intel](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures), and [AMD](https://en.wikipedia.org/wiki/List_of_AMD_processors) chips.
+This also works on the [Windows Subsystem for Linux (WSL)](https://github.com/schneidernicholas/CS314-Guides/blob/main/Environment/installing/windows-subsystem-linux.md).
 
 ## 1. Update OS Packages
 ```sh
