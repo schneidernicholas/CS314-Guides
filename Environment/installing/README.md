@@ -7,18 +7,18 @@ To install the development environment, you will need to do some setup. First is
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
 | [Native (bare metal)](macos-linux.md) | Fastest | Easiest |
-| [Docker](https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsFall2021/chapter/1/section/5) | Slowest | Medium |
+| [Docker](https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsSpring2022/chapter/1/section/5) | Slowest | Medium |
 
 ## Windows
 ### Installation Options
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
 | [Subsystem for Linux (WSL)](windows-subsystem-linux.md) | Fastest | Medium |
-| [Docker](https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsFall2021/chapter/1/section/5) | Medium | Medium |
+| [Docker]((https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsSpring2022/chapter/1/section/5) | Medium | Medium |
 
 ## Linux (Debian-based)
 ### Installation Options
 | Environment | Performance | Ease of Install |
 | --- | --- | --- |
 | [Native (bare metal)](macos-linux.md) | Fastest | Easiest |
-| [Docker](https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsFall2021/chapter/1/section/5) | Slowest | Difficult |
+| [Docker]((https://learn.zybooks.com/zybook/COLOSTATECS314MatthewsSpring2022/chapter/1/section/5) | Slowest | Difficult |
