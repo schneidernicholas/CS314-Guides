@@ -5,7 +5,7 @@ A collection of helpful guides and resources for installing, using, and doing th
 | Contributor | Role | GitHub | Email |
 | --- | --- | --- | --- |
 | Nicholas Schneider | Editor/Maintainer | https://github.com/schneidernicholas | nws@cs.colostate.edu |
-| Emmet-Pritchard | Contributor | https://github.com/Emmet-Pritchard | pritche@cs.colostate.edu |
+| Emmet Pritchard | Contributor | https://github.com/Emmet-Pritchard | pritche@cs.colostate.edu |
 | Khang Ho | Contributor | https://github.com/KhangHo | khangho@cs.colostate.edu |
 
 ## Contributing
