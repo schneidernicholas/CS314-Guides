@@ -44,12 +44,11 @@ Host cs314
     LocalForward 31426 black-bottle:31426
     LocalForward 31427 black-bottle:31427
     LocalForward 31499 black-bottle:31499
-    LocalForward 34200 black-bottle:34200
-    LocalForward 34201 black-bottle:34201
-    LocalForward 34202 black-bottle:34202
-    LocalForward 34203 black-bottle:34203
-    LocalForward 34204 black-bottle:34204
-    LocalForward 34200 black-bottle:34200
+    LocalForward 34100 black-bottle:34100
+    LocalForward 34101 black-bottle:34101
+    LocalForward 34102 black-bottle:34102
+    LocalForward 34103 black-bottle:34103
+    LocalForward 34104 black-bottle:34104
 ```
 
 **Replace `<CS-Machine>` with a [CS machine](https://www.cs.colostate.edu/machinestats/) and `<EID>` with your EID you SSH into the CS machines with.**
